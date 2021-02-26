@@ -1,0 +1,33 @@
+{
+  "name": "react-quizz-app-demo",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "homepage":"https://malhar512.github.io/frontendtask",
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.15",
+    "react-dom": "16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages ~d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
