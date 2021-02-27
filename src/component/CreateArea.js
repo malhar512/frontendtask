@@ -24,7 +24,7 @@ function CreateArea(props) {
 
   function submitNote(event) {
     props.onAdd(note);
-    while(title!=="Global" || title!=="global"){
+    if(title!=="Global" || title!=="global"){
 
     
     setNote({
